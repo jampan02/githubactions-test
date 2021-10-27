@@ -1,9 +1,5 @@
-function a() {
-  console.log("hi");
+function a(text) {
+  console.log(text);
 }
-a();
-
-function b() {
-  console.log("hi2");
-}
-b();
+a("hi");
+b("hi2");
